@@ -1,70 +1,210 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="ns_logo.gif" alt="logo" width="350"  height="auto" />
+  <br/>
+</div>
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Best Sellers Books ](# Best Sellers Books-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-### `npm start`
+<!-- PROJECT DESCRIPTION -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#  Best Sellers Books<a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Best Sellers Books is a website with this functionalities: display a list of books,  add a book and remove a selected book.
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run build`
+> This project uses the following stack :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+     <li><a href="https://www.w3schools.com/js/">JavaScript</a></li>
+     <li><a href="hhttps://reactjs.org/">ReactJs</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Features -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run eject`
+> Here are some key features of the application :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Learn how to use proper ES6 syntax.**
+- **Use ES6 modules to write modular JavaScript.**
+- **Follow Gitflow.**
+- **Handle events in a React app.**
+- **Use React life cycle methods.**
+- **Understand the mechanism of lifting state up.**
+- **Use React Router.**
+- **Understand the concept of state management.**
+- **Use store, actions, and reducers in React.**
+- **Connect an existing API via Redux and use the data to display something in a UI.**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- LIVE DEMO -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Learn More
+[Comming Soon](https://github.com/Nkaleth/best_sellers_books)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- > Here you can visit my live demo : -->
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- GETTING STARTED -->
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> Clone the repository by clicking on the 'Code' button and copy the link
 
-### Making a Progressive Web App
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
 
-### Advanced Configuration
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-visual studio
+-github
 
-### Deployment
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clone this repository to your desired folder:
 
-### `npm run build` fails to minify
+```sh
+  mkdir my-folder
+  cd my-folder
+  git clone https://github.com/Nkaleth/bookstore.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-
+
+### Install
+
+Install this project with:
+
+```
+  npm install
+```
+### Usage I
+
+Change the main branch to the right one, execute the following command:
+
+```sh
+  git checkout dev
+```
+
+### Usage II
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+Example command:
+
+To run the webhint linter
+
+```sh
+  npx hint .
+```
+
+To run the stylehint linter
+
+```sh
+  npx stylehint "**/*.{css,scss}"
+```
+
+To run the ESLint linter
+
+```sh
+  npx eslint "**/*.{js,jsx}" 
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="author"></a>
+
+👤 **Nilton Segura**
+
+- GitHub: [@Nkaleth](https://github.com/Nkaleth)
+- Twitter: [@NoeSeguraL](https://twitter.com/NoeSeguraL)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nseguralu/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Deploy**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project follow me and star it!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse<br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [licensed](./MIT.md) .
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

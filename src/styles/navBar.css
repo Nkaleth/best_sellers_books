@@ -1,0 +1,18 @@
+.navbarTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarBottom {
+  display: flex;
+  align-items: center;
+}
+
+.catImgContainer {
+  width: 50%;
+}
+
+.titleNavbar {
+  font-size: 1rem;
+}

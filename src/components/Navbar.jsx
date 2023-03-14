@@ -1,29 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
+import '../styles/navBar.css';
 
 const Navbar = ({ categorie, numCateg }) => (
   <>
-    <nav>
+    <nav className="navbarTop">
       <NavLink to="/">
         {'<'}
       </NavLink>
-      <p>2023</p>
+      <p>
+        2023
+        {' '}
+      </p>
       <p>best sellers books</p>
       <img src="" alt="mic" />
       <img src="" alt="config" />
     </nav>
-    <div className="catImgContainer">
-      <img src="" alt="catImg" />
-    </div>
-    <div>
-      <h1>{categorie}</h1>
-      <p>
-        {numCateg}
-        {' '}
-        Items
-      </p>
-    </div>
+    <section className="navbarBottom">
+      <div className="catImgContainer">
+        <img src="" alt="catImg" />
+      </div>
+      <div>
+        <h1 className="titleNavbar">{categorie}</h1>
+        <p className="counterNavbar">
+          {numCateg}
+          {' '}
+          Items
+        </p>
+      </div>
+    </section>
   </>
 );
 

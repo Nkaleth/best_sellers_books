@@ -26,7 +26,7 @@ const Navbar = ({ categorie, numCateg }) => (
         <p className="counterNavbar">
           {numCateg}
           {' '}
-          Items
+          Categories
         </p>
       </div>
     </section>

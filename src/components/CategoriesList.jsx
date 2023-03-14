@@ -27,6 +27,7 @@ const CategoriesList = () => {
         { categoriesList.map((categorie) => (
           <Categorie
             key={categorie.list_name_encoded}
+            id={categorie.list_name_encoded}
             categorieName={categorie.display_name}
             date={categorie.newest_published_date}
           />

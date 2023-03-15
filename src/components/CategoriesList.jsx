@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import Categorie from './Categorie';
 import { getCategoriesList } from '../redux/categories/categoriesSlice';
 import Navbar from './Navbar';
@@ -25,12 +26,14 @@ const CategoriesList = () => {
       <p>BOOKS BY CATEGORY</p>
       <section className="CategoriesBox">
         { categoriesList.map((categorie) => (
-          <Categorie
-            key={categorie.list_name_encoded}
-            id={categorie.list_name_encoded}
-            categorieName={categorie.display_name}
-            date={categorie.newest_published_date}
-          />
+          <NavLink key={categorie.list_name_encoded} to={`/details/${categorie.list_name_encoded}`}>
+            <Categorie
+              id={categorie.list_name_encoded}
+              categorieName={categorie.display_name}
+              dat
+              e={categorie.newest_published_date}
+            />
+          </NavLink>
         ))}
       </section>
     </>

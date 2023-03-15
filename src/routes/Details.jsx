@@ -1,11 +1,10 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
+import { useParams } from 'react-router';
+import BooksList from '../components/BooksList';
 
-const Details = () => (
-  <>
-    <Navbar categorie="Combined Print and E-Book Fiction" numCateg={15} />
-    <div>Details</div>
-  </>
-);
-
+const Details = () => {
+  const { id } = useParams();
+  return (
+    <BooksList id={id} />
+  );
+};
 export default Details;

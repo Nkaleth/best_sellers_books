@@ -18,9 +18,17 @@ const categoriesSlice = createSlice({
   name: 'categories',
   initialState: {
     categoriesList: [],
+    categoriesFiltered: [],
     isLoading: true,
   },
-  reducers: {},
+  reducers: {
+    filterBySearch: (state, action) => {
+      const filteredCategories = state.categoriesList.filter(
+        (categorie) => categorie.list_name_encoded.includes(action.payload),
+      );
+      state.categoriesFiltered = filteredCategories;
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(getCategoriesList.fulfilled, (state, action) => {
@@ -31,5 +39,7 @@ const categoriesSlice = createSlice({
       });
   },
 });
+
+export const { filterBySearch } = categoriesSlice.actions;
 
 export default categoriesSlice.reducer;

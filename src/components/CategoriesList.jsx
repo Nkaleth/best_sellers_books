@@ -5,6 +5,7 @@ import Categorie from './Categorie';
 import { getCategoriesList, filterBySearch } from '../redux/categories/categoriesSlice';
 import Navbar from './Navbar';
 import SearchBox from './SearchBox';
+import '../styles/categoriesList.css';
 
 const CategoriesList = () => {
   const {
@@ -33,7 +34,7 @@ const CategoriesList = () => {
       <>
         <Navbar categorie="Best Sellers" numCateg={categoriesList.length} />
         <SearchBox />
-        <p>BOOKS BY CATEGORY</p>
+        <p className="titleBoxCategories">BOOKS BY CATEGORY</p>
         <section className="CategoriesBox">
           { categoriesFiltered.map((categorie) => (
             <NavLink key={categorie.list_name_encoded} to={`/details/${categorie.list_name_encoded}`}>
@@ -41,6 +42,7 @@ const CategoriesList = () => {
                 id={categorie.list_name_encoded}
                 categorieName={categorie.display_name}
                 date={categorie.newest_published_date}
+                index={categorie.newindex}
               />
             </NavLink>
           ))}
@@ -50,7 +52,7 @@ const CategoriesList = () => {
   }
   return (
     <>
-      <Navbar categorie="Best Sellers" numCateg={categoriesList.length} />
+      <Navbar categorie="BEST SELLERS" numCateg={categoriesList.length} />
       <SearchBox />
       <p>BOOKS BY CATEGORY</p>
       <section className="CategoriesBox">
@@ -60,6 +62,7 @@ const CategoriesList = () => {
               id={categorie.list_name_encoded}
               categorieName={categorie.display_name}
               date={categorie.newest_published_date}
+              index={categorie.newindex}
             />
           </NavLink>
         ))}

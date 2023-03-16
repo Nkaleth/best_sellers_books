@@ -1,0 +1,17 @@
+
+/* for now empty */
+a {
+  text-decoration: none;
+}
+
+.CategoriesBox {
+  padding: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.titleBoxCategories {
+  font-weight: 400;
+  padding: 1%;
+  font-size: 2vh;
+}

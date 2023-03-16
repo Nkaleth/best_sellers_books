@@ -1,29 +1,43 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/book.css';
+import upArrow from '../icons/up-arrow-svgrepo-com.svg';
+import downArrow from '../icons/down-arrow-download-svgrepo-com.svg';
+import rightArrow from '../icons/right-arrow-svgrepo-com.svg';
 
 const Book = ({
   rank, rankLastWeek, weeksOnList, title, author, bookImg,
 }) => {
-  let rankInfo;
-  if (rankLastWeek === 0) {
-    rankInfo = <span className="rankInfo">New this week</span>;
-  } else if (rankLastWeek > rank) {
-    rankInfo = <span className="rankInfo">Rank decreased</span>;
+  let arrowRank;
+  if ((rankLastWeek === rank) || (rankLastWeek === 0 && (rank > rankLastWeek))) {
+    arrowRank = <img className="arrowRank" src={rightArrow} alt="RightArrow" />;
+  } else if (rankLastWeek < rank) {
+    arrowRank = <img className="arrowRank" src={downArrow} alt="DownArrow" />;
   } else {
-    rankInfo = <span className="rankInfo">Rank increased</span>;
+    arrowRank = <img className="arrowRank" src={upArrow} alt="UpArrow" />;
+  }
+  let numWeeks;
+  if (weeksOnList === 0) {
+    numWeeks = <span className="weeksList">NEW THIS WEEK</span>;
+  } else {
+    numWeeks = <span className="weeksList">{`${weeksOnList} WEEKS ON THE LIST`}</span>;
   }
   return (
     <article data-testid="bookBox" className="bookBox">
       <section className="bookTitle">
-        <h2>{rank}</h2>
         <div className="rankData">
-          <img src={bookImg} alt={title} />
-          {rankInfo}
-          <span>{`${weeksOnList} WEEKS ON THE LIST`}</span>
+          <h2 className="rankNumber">{rank}</h2>
+          <div className="arrowRankBox">
+            {arrowRank}
+          </div>
+          <div className="bookCoverBox">
+            <img src={bookImg} alt={title} />
+          </div>
         </div>
         <div className="titleAuthorBook">
           <h2>{title}</h2>
           <span>{`by ${author}`}</span>
+          {numWeeks}
         </div>
       </section>
     </article>

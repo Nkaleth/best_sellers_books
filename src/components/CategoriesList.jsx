@@ -5,6 +5,8 @@ import Categorie from './Categorie';
 import { getCategoriesList, filterBySearch } from '../redux/categories/categoriesSlice';
 import Navbar from './Navbar';
 import SearchBox from './SearchBox';
+import '../styles/categoriesList.css';
+import search from '../icons/search-svgrepo-com.svg';
 
 const CategoriesList = () => {
   const {
@@ -32,8 +34,11 @@ const CategoriesList = () => {
     return (
       <>
         <Navbar categorie="Best Sellers" numCateg={categoriesList.length} />
-        <SearchBox />
-        <p>BOOKS BY CATEGORY</p>
+        <section className="iconBox">
+          <SearchBox />
+          <img src={search} alt="findIcon" />
+        </section>
+        <p className="titleBoxCategories">BOOKS BY CATEGORY</p>
         <section className="CategoriesBox">
           { categoriesFiltered.map((categorie) => (
             <NavLink key={categorie.list_name_encoded} to={`/details/${categorie.list_name_encoded}`}>
@@ -41,6 +46,7 @@ const CategoriesList = () => {
                 id={categorie.list_name_encoded}
                 categorieName={categorie.display_name}
                 date={categorie.newest_published_date}
+                index={categorie.newindex}
               />
             </NavLink>
           ))}
@@ -50,8 +56,11 @@ const CategoriesList = () => {
   }
   return (
     <>
-      <Navbar categorie="Best Sellers" numCateg={categoriesList.length} />
-      <SearchBox />
+      <Navbar categorie="BEST SELLERS" numCateg={categoriesList.length} />
+      <section className="iconBox">
+        <SearchBox />
+        <img src={search} alt="findIcon" />
+      </section>
       <p>BOOKS BY CATEGORY</p>
       <section className="CategoriesBox">
         { categoriesList.map((categorie) => (
@@ -60,6 +69,7 @@ const CategoriesList = () => {
               id={categorie.list_name_encoded}
               categorieName={categorie.display_name}
               date={categorie.newest_published_date}
+              index={categorie.newindex}
             />
           </NavLink>
         ))}

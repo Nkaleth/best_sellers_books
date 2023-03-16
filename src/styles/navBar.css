@@ -1,18 +1,82 @@
+/* Mobile width < 768 px */
+* {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
 .navbarTop {
+  background: #4369b2;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentnavbarTop {
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.yearNavbar {
+  font-weight: 700;
+  font-size: 3vh;
+}
+
+.titleNavbar {
+  font-weight: 300;
+  font-size: 3vh;
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  text-decoration: none;
+}
+
+.iconBox img {
+  height: 3vh;
+  object-fit: contain;
+}
+
+.catImgContainer img {
+  height: 17vh;
+  margin: 5vh;
+  object-fit: contain;
+}
+
+.iconBox img:hover {
+  cursor: pointer;
+}
+
 .navbarBottom {
+  background: #5789e6;
   display: flex;
   align-items: center;
 }
 
 .catImgContainer {
+  display: flex;
+  justify-content: center;
   width: 50%;
 }
 
-.titleNavbar {
-  font-size: 1rem;
+.titleCountBox {
+  padding: 3vh;
+}
+
+.titleCategories {
+  font-weight: 900;
+  font-size: 5vh;
+  margin-bottom: 0;
+}
+
+.counterNavbar {
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3vh;
 }

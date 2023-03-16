@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getBestSellerBooks } from '../redux/details/detailsSlice';
 import Navbar from './Navbar';
 import Book from './Book';
+import '../styles/booklist.css';
 
 const BooksList = ({ id }) => {
   const {
@@ -25,7 +26,7 @@ const BooksList = ({ id }) => {
   return (
     <>
       <Navbar categorie={listName} numCateg={booksDetails.length} />
-      <p>{`Best Sellers Date ${publishedDate}`}</p>
+      <p className="listDate">{`Ranking Date: ${publishedDate}`}</p>
       <section className="booksDetailsBox">
         { booksDetails.map((book) => (
           <Book

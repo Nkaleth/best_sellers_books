@@ -5,29 +5,48 @@ Array [
   <nav
     className="navbarTop"
   >
-    <a
-      aria-current="page"
-      className="active"
-      href="/"
-      onClick={[Function]}
+    <div
+      className="contentnavbarTop"
     >
-      &lt;
-    </a>
-    <p>
-      2023
-       
-    </p>
-    <p>
-      best sellers books
-    </p>
-    <img
-      alt="mic"
-      src=""
-    />
-    <img
-      alt="config"
-      src=""
-    />
+      <a
+        aria-current="page"
+        className="iconBox active"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="goBack"
+          src="backward-step-svgrepo-com.svg"
+        />
+        <p
+          className="yearNavbar"
+        >
+          2023
+           
+        </p>
+      </a>
+      <p
+        className="titleNavbar"
+      >
+        New York Times Best Sellers Books
+      </p>
+      <div
+        className="iconBox"
+      >
+        <img
+          alt="mic"
+          src="mic-svgrepo-com.svg"
+        />
+      </div>
+      <div
+        className="iconBox"
+      >
+        <img
+          alt="config"
+          src="gear-svgrepo-com.svg"
+        />
+      </div>
+    </div>
   </nav>,
   <section
     className="navbarBottom"
@@ -37,12 +56,14 @@ Array [
     >
       <img
         alt="catImg"
-        src=""
+        src="library-svgrepo-com.svg"
       />
     </div>
-    <div>
+    <div
+      className="titleCountBox"
+    >
       <h1
-        className="titleNavbar"
+        className="titleCategories"
       >
         No list loaded
       </h1>
@@ -51,12 +72,14 @@ Array [
       >
         4
          
-        Categories
+        Items
       </p>
     </div>
   </section>,
-  <p>
-    Best Sellers Date no Date
+  <p
+    className="listDate"
+  >
+    Ranking Date: no Date
   </p>,
   <section
     className="booksDetailsBox"
@@ -68,24 +91,31 @@ Array [
       <section
         className="bookTitle"
       >
-        <h2>
-          1
-        </h2>
         <div
           className="rankData"
         >
-          <img
-            alt="THE MAID"
-            src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
-          />
-          <span
-            className="rankInfo"
+          <h2
+            className="rankNumber"
           >
-            Rank decreased
-          </span>
-          <span>
-            9 WEEKS ON THE LIST
-          </span>
+            1
+          </h2>
+          <div
+            className="arrowRankBox"
+          >
+            <img
+              alt="UpArrow"
+              className="arrowRank"
+              src="up-arrow-svgrepo-com.svg"
+            />
+          </div>
+          <div
+            className="bookCoverBox"
+          >
+            <img
+              alt="THE MAID"
+              src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
+            />
+          </div>
         </div>
         <div
           className="titleAuthorBook"
@@ -96,6 +126,11 @@ Array [
           <span>
             by Nita Prose
           </span>
+          <span
+            className="weeksList"
+          >
+            9 WEEKS ON THE LIST
+          </span>
         </div>
       </section>
     </article>
@@ -106,24 +141,31 @@ Array [
       <section
         className="bookTitle"
       >
-        <h2>
-          2
-        </h2>
         <div
           className="rankData"
         >
-          <img
-            alt="Book 2"
-            src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
-          />
-          <span
-            className="rankInfo"
+          <h2
+            className="rankNumber"
           >
-            Rank decreased
-          </span>
-          <span>
-            9 WEEKS ON THE LIST
-          </span>
+            2
+          </h2>
+          <div
+            className="arrowRankBox"
+          >
+            <img
+              alt="UpArrow"
+              className="arrowRank"
+              src="up-arrow-svgrepo-com.svg"
+            />
+          </div>
+          <div
+            className="bookCoverBox"
+          >
+            <img
+              alt="Book 2"
+              src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
+            />
+          </div>
         </div>
         <div
           className="titleAuthorBook"
@@ -134,6 +176,11 @@ Array [
           <span>
             by Author2
           </span>
+          <span
+            className="weeksList"
+          >
+            9 WEEKS ON THE LIST
+          </span>
         </div>
       </section>
     </article>
@@ -144,24 +191,31 @@ Array [
       <section
         className="bookTitle"
       >
-        <h2>
-          3
-        </h2>
         <div
           className="rankData"
         >
-          <img
-            alt="Book 3"
-            src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
-          />
-          <span
-            className="rankInfo"
+          <h2
+            className="rankNumber"
           >
-            Rank decreased
-          </span>
-          <span>
-            9 WEEKS ON THE LIST
-          </span>
+            3
+          </h2>
+          <div
+            className="arrowRankBox"
+          >
+            <img
+              alt="UpArrow"
+              className="arrowRank"
+              src="up-arrow-svgrepo-com.svg"
+            />
+          </div>
+          <div
+            className="bookCoverBox"
+          >
+            <img
+              alt="Book 3"
+              src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
+            />
+          </div>
         </div>
         <div
           className="titleAuthorBook"
@@ -172,6 +226,11 @@ Array [
           <span>
             by Author3
           </span>
+          <span
+            className="weeksList"
+          >
+            9 WEEKS ON THE LIST
+          </span>
         </div>
       </section>
     </article>
@@ -182,24 +241,31 @@ Array [
       <section
         className="bookTitle"
       >
-        <h2>
-          4
-        </h2>
         <div
           className="rankData"
         >
-          <img
-            alt="Book 4"
-            src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
-          />
-          <span
-            className="rankInfo"
+          <h2
+            className="rankNumber"
           >
-            Rank decreased
-          </span>
-          <span>
-            9 WEEKS ON THE LIST
-          </span>
+            4
+          </h2>
+          <div
+            className="arrowRankBox"
+          >
+            <img
+              alt="UpArrow"
+              className="arrowRank"
+              src="up-arrow-svgrepo-com.svg"
+            />
+          </div>
+          <div
+            className="bookCoverBox"
+          >
+            <img
+              alt="Book 4"
+              src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
+            />
+          </div>
         </div>
         <div
           className="titleAuthorBook"
@@ -209,6 +275,11 @@ Array [
           </h2>
           <span>
             by Author4
+          </span>
+          <span
+            className="weeksList"
+          >
+            9 WEEKS ON THE LIST
           </span>
         </div>
       </section>

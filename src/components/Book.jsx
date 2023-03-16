@@ -13,7 +13,7 @@ const Book = ({
     rankInfo = <span className="rankInfo">Rank increased</span>;
   }
   return (
-    <article className="bookBox">
+    <article data-testid="bookBox" className="bookBox">
       <section className="bookTitle">
         <h2>{rank}</h2>
         <div className="rankData">

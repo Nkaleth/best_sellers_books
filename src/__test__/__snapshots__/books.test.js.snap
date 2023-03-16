@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for details page: <BooksList /> component Should match the snapshot 1`] = `
+Array [
+  <nav
+    className="navbarTop"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+    >
+      &lt;
+    </a>
+    <p>
+      2023
+       
+    </p>
+    <p>
+      best sellers books
+    </p>
+    <img
+      alt="mic"
+      src=""
+    />
+    <img
+      alt="config"
+      src=""
+    />
+  </nav>,
+  <section
+    className="navbarBottom"
+  >
+    <div
+      className="catImgContainer"
+    >
+      <img
+        alt="catImg"
+        src=""
+      />
+    </div>
+    <div>
+      <h1
+        className="titleNavbar"
+      >
+        No list loaded
+      </h1>
+      <p
+        className="counterNavbar"
+      >
+        4
+         
+        Categories
+      </p>
+    </div>
+  </section>,
+  <p>
+    Best Sellers Date no Date
+  </p>,
+  <section
+    className="booksDetailsBox"
+  >
+    <article
+      className="bookBox"
+      data-testid="bookBox"
+    >
+      <section
+        className="bookTitle"
+      >
+        <h2>
+          1
+        </h2>
+        <div
+          className="rankData"
+        >
+          <img
+            alt="THE MAID"
+            src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
+          />
+          <span
+            className="rankInfo"
+          >
+            Rank decreased
+          </span>
+          <span>
+            9 WEEKS ON THE LIST
+          </span>
+        </div>
+        <div
+          className="titleAuthorBook"
+        >
+          <h2>
+            THE MAID
+          </h2>
+          <span>
+            by Nita Prose
+          </span>
+        </div>
+      </section>
+    </article>
+    <article
+      className="bookBox"
+      data-testid="bookBox"
+    >
+      <section
+        className="bookTitle"
+      >
+        <h2>
+          2
+        </h2>
+        <div
+          className="rankData"
+        >
+          <img
+            alt="Book 2"
+            src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
+          />
+          <span
+            className="rankInfo"
+          >
+            Rank decreased
+          </span>
+          <span>
+            9 WEEKS ON THE LIST
+          </span>
+        </div>
+        <div
+          className="titleAuthorBook"
+        >
+          <h2>
+            Book 2
+          </h2>
+          <span>
+            by Author2
+          </span>
+        </div>
+      </section>
+    </article>
+    <article
+      className="bookBox"
+      data-testid="bookBox"
+    >
+      <section
+        className="bookTitle"
+      >
+        <h2>
+          3
+        </h2>
+        <div
+          className="rankData"
+        >
+          <img
+            alt="Book 3"
+            src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
+          />
+          <span
+            className="rankInfo"
+          >
+            Rank decreased
+          </span>
+          <span>
+            9 WEEKS ON THE LIST
+          </span>
+        </div>
+        <div
+          className="titleAuthorBook"
+        >
+          <h2>
+            Book 3
+          </h2>
+          <span>
+            by Author3
+          </span>
+        </div>
+      </section>
+    </article>
+    <article
+      className="bookBox"
+      data-testid="bookBox"
+    >
+      <section
+        className="bookTitle"
+      >
+        <h2>
+          4
+        </h2>
+        <div
+          className="rankData"
+        >
+          <img
+            alt="Book 4"
+            src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
+          />
+          <span
+            className="rankInfo"
+          >
+            Rank decreased
+          </span>
+          <span>
+            9 WEEKS ON THE LIST
+          </span>
+        </div>
+        <div
+          className="titleAuthorBook"
+        >
+          <h2>
+            Book 4
+          </h2>
+          <span>
+            by Author4
+          </span>
+        </div>
+      </section>
+    </article>
+  </section>,
+]
+`;

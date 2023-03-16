@@ -6,6 +6,7 @@ import { getCategoriesList, filterBySearch } from '../redux/categories/categorie
 import Navbar from './Navbar';
 import SearchBox from './SearchBox';
 import '../styles/categoriesList.css';
+import search from '../icons/search-svgrepo-com.svg';
 
 const CategoriesList = () => {
   const {
@@ -33,7 +34,10 @@ const CategoriesList = () => {
     return (
       <>
         <Navbar categorie="Best Sellers" numCateg={categoriesList.length} />
-        <SearchBox />
+        <section className="iconBox">
+          <SearchBox />
+          <img src={search} alt="findIcon" />
+        </section>
         <p className="titleBoxCategories">BOOKS BY CATEGORY</p>
         <section className="CategoriesBox">
           { categoriesFiltered.map((categorie) => (
@@ -53,7 +57,10 @@ const CategoriesList = () => {
   return (
     <>
       <Navbar categorie="BEST SELLERS" numCateg={categoriesList.length} />
-      <SearchBox />
+      <section className="iconBox">
+        <SearchBox />
+        <img src={search} alt="findIcon" />
+      </section>
       <p>BOOKS BY CATEGORY</p>
       <section className="CategoriesBox">
         { categoriesList.map((categorie) => (

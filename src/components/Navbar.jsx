@@ -18,7 +18,7 @@ const Navbar = ({ categorie, numCateg }) => (
             {' '}
           </p>
         </NavLink>
-        <p className="titleNavbar">best sellers books</p>
+        <p className="titleNavbar">New York Times Best Sellers Books</p>
         <div className="iconBox">
           <img src={mic} alt="mic" />
         </div>
@@ -36,7 +36,7 @@ const Navbar = ({ categorie, numCateg }) => (
         <p className="counterNavbar">
           {numCateg}
           {' '}
-          Categories
+          Items
         </p>
       </div>
     </section>

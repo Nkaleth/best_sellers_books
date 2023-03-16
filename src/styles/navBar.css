@@ -32,6 +32,7 @@
 .iconBox {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: auto;
   width: auto;
   text-decoration: none;

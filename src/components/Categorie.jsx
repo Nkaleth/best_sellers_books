@@ -12,8 +12,9 @@ const Categorie = ({
     </div>
     <div className="CatNameBox">
       <h2 className="catName">{categorieName}</h2>
-      <p>
+      <p className="publishDate">
         Published date:
+        {' '}
         {date}
       </p>
     </div>

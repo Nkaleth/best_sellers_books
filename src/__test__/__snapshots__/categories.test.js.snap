@@ -5,29 +5,48 @@ Array [
   <nav
     className="navbarTop"
   >
-    <a
-      aria-current="page"
-      className="active"
-      href="/"
-      onClick={[Function]}
+    <div
+      className="contentnavbarTop"
     >
-      &lt;
-    </a>
-    <p>
-      2023
-       
-    </p>
-    <p>
-      best sellers books
-    </p>
-    <img
-      alt="mic"
-      src=""
-    />
-    <img
-      alt="config"
-      src=""
-    />
+      <a
+        aria-current="page"
+        className="iconBox active"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="goBack"
+          src="backward-step-svgrepo-com.svg"
+        />
+        <p
+          className="yearNavbar"
+        >
+          2023
+           
+        </p>
+      </a>
+      <p
+        className="titleNavbar"
+      >
+        New York Times Best Sellers Books
+      </p>
+      <div
+        className="iconBox"
+      >
+        <img
+          alt="mic"
+          src="mic-svgrepo-com.svg"
+        />
+      </div>
+      <div
+        className="iconBox"
+      >
+        <img
+          alt="config"
+          src="gear-svgrepo-com.svg"
+        />
+      </div>
+    </div>
   </nav>,
   <section
     className="navbarBottom"
@@ -37,29 +56,40 @@ Array [
     >
       <img
         alt="catImg"
-        src=""
+        src="library-svgrepo-com.svg"
       />
     </div>
-    <div>
+    <div
+      className="titleCountBox"
+    >
       <h1
-        className="titleNavbar"
+        className="titleCategories"
       >
-        Best Sellers
+        BEST SELLERS
       </h1>
       <p
         className="counterNavbar"
       >
         3
          
-        Categories
+        Items
       </p>
     </div>
   </section>,
-  <input
-    onChange={[Function]}
-    placeholder="Search by Category"
-    type="text"
-  />,
+  <section
+    className="iconBox"
+  >
+    <input
+      className="inputSearch"
+      onChange={[Function]}
+      placeholder="Search by Category"
+      type="text"
+    />
+    <img
+      alt="findIcon"
+      src="search-svgrepo-com.svg"
+    />
+  </section>,
   <p>
     BOOKS BY CATEGORY
   </p>,
@@ -72,7 +102,7 @@ Array [
       onClick={[Function]}
     >
       <section
-        className="categorieBox"
+        className="categorieBoxodd"
         data-testid="categorieBox"
         id="combined-print-and-e-book-fiction"
       >
@@ -81,15 +111,22 @@ Array [
         >
           <img
             alt="Categorie Icon"
-            src=""
+            src="category-svgrepo-com.svg"
           />
         </div>
-        <div>
-          <h2>
+        <div
+          className="CatNameBox"
+        >
+          <h2
+            className="catName"
+          >
             Combined Print & E-Book Fiction
           </h2>
-          <p>
+          <p
+            className="publishDate"
+          >
             Published date:
+             
             2023-03-19
           </p>
         </div>
@@ -101,7 +138,7 @@ Array [
       onClick={[Function]}
     >
       <section
-        className="categorieBox"
+        className="categorieBoxodd"
         data-testid="categorieBox"
         id="combined-print-and-e-book-nonfiction"
       >
@@ -110,15 +147,22 @@ Array [
         >
           <img
             alt="Categorie Icon"
-            src=""
+            src="category-svgrepo-com.svg"
           />
         </div>
-        <div>
-          <h2>
+        <div
+          className="CatNameBox"
+        >
+          <h2
+            className="catName"
+          >
             Combined Print & E-Book Nonfiction
           </h2>
-          <p>
+          <p
+            className="publishDate"
+          >
             Published date:
+             
             2023-03-19
           </p>
         </div>
@@ -130,7 +174,7 @@ Array [
       onClick={[Function]}
     >
       <section
-        className="categorieBox"
+        className="categorieBoxodd"
         data-testid="categorieBox"
         id="hardcover-fiction"
       >
@@ -139,15 +183,22 @@ Array [
         >
           <img
             alt="Categorie Icon"
-            src=""
+            src="category-svgrepo-com.svg"
           />
         </div>
-        <div>
-          <h2>
+        <div
+          className="CatNameBox"
+        >
+          <h2
+            className="catName"
+          >
             Hardcover Fiction
           </h2>
-          <p>
+          <p
+            className="publishDate"
+          >
             Published date:
+             
             2023-03-19
           </p>
         </div>

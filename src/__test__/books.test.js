@@ -67,7 +67,7 @@ describe('Testing details page: <BooksList /> component', () => {
 
   it("Should render '4 categories' text", () => {
     render(wrapper(<BooksList />));
-    expect(screen.getByText(/4 categories/i)).toBeInTheDocument();
+    expect(screen.getByText(/4 Items/i)).toBeInTheDocument();
   });
 
   it('Should render 4 books', () => {

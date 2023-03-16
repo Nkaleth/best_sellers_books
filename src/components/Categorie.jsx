@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Categorie = ({ categorieName, date, id }) => (
-  <section id={id} className="categorieBox">
+  <section data-testid="categorieBox" id={id} className="categorieBox">
     <div className="categorieImageBox">
       <img src="" alt="Categorie Icon" />
     </div>

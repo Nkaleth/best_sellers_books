@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Home Page: <CategoriesList /> component Should match the snapshot 1`] = `
+Array [
+  <nav
+    className="navbarTop"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+    >
+      &lt;
+    </a>
+    <p>
+      2023
+       
+    </p>
+    <p>
+      best sellers books
+    </p>
+    <img
+      alt="mic"
+      src=""
+    />
+    <img
+      alt="config"
+      src=""
+    />
+  </nav>,
+  <section
+    className="navbarBottom"
+  >
+    <div
+      className="catImgContainer"
+    >
+      <img
+        alt="catImg"
+        src=""
+      />
+    </div>
+    <div>
+      <h1
+        className="titleNavbar"
+      >
+        Best Sellers
+      </h1>
+      <p
+        className="counterNavbar"
+      >
+        3
+         
+        Categories
+      </p>
+    </div>
+  </section>,
+  <input
+    onChange={[Function]}
+    placeholder="Search by Category"
+    type="text"
+  />,
+  <p>
+    BOOKS BY CATEGORY
+  </p>,
+  <section
+    className="CategoriesBox"
+  >
+    <a
+      className=""
+      href="/details/combined-print-and-e-book-fiction"
+      onClick={[Function]}
+    >
+      <section
+        className="categorieBox"
+        data-testid="categorieBox"
+        id="combined-print-and-e-book-fiction"
+      >
+        <div
+          className="categorieImageBox"
+        >
+          <img
+            alt="Categorie Icon"
+            src=""
+          />
+        </div>
+        <div>
+          <h2>
+            Combined Print & E-Book Fiction
+          </h2>
+          <p>
+            Published date:
+            2023-03-19
+          </p>
+        </div>
+      </section>
+    </a>
+    <a
+      className=""
+      href="/details/combined-print-and-e-book-nonfiction"
+      onClick={[Function]}
+    >
+      <section
+        className="categorieBox"
+        data-testid="categorieBox"
+        id="combined-print-and-e-book-nonfiction"
+      >
+        <div
+          className="categorieImageBox"
+        >
+          <img
+            alt="Categorie Icon"
+            src=""
+          />
+        </div>
+        <div>
+          <h2>
+            Combined Print & E-Book Nonfiction
+          </h2>
+          <p>
+            Published date:
+            2023-03-19
+          </p>
+        </div>
+      </section>
+    </a>
+    <a
+      className=""
+      href="/details/hardcover-fiction"
+      onClick={[Function]}
+    >
+      <section
+        className="categorieBox"
+        data-testid="categorieBox"
+        id="hardcover-fiction"
+      >
+        <div
+          className="categorieImageBox"
+        >
+          <img
+            alt="Categorie Icon"
+            src=""
+          />
+        </div>
+        <div>
+          <h2>
+            Hardcover Fiction
+          </h2>
+          <p>
+            Published date:
+            2023-03-19
+          </p>
+        </div>
+      </section>
+    </a>
+  </section>,
+]
+`;

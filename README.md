@@ -73,8 +73,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Comming Soon](https://github.com/Nkaleth/best_sellers_books)
-
+[Live Demo](https://new-york-times-best-seller-books.onrender.com/)
 
 <!-- > Here you can visit my live demo : -->
 

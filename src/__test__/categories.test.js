@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import CategoriesList from '../components/CategoriesList';
 
-describe('Tests for Home Page: <CategoriesList /> component', () => {
+describe('Testing Home Page: <CategoriesList /> component', () => {
   const initialState = {
     categoriesList: [{
       list_name: 'Combined Print and E-Book Fiction',

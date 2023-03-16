@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import BooksList from '../components/BooksList';
 
-describe('Tests for details page: <BooksList /> component', () => {
+describe('Testing details page: <BooksList /> component', () => {
   const initialState = {
     booksDetails: [
       {

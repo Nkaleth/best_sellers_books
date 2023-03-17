@@ -1,0 +1,81 @@
+.bookBoxodd {
+  background-color: #4c76c6;
+}
+
+.bookBoxeven {
+  background-color: #4369b2;
+}
+
+.bookTitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rankData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.rankNumber {
+  font-size: 5vh;
+  padding-left: 3vh;
+}
+
+.arrowRankBox {
+  width: auto;
+  height: 100%;
+}
+
+.arrowRankBox img {
+  height: 3vh;
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
+}
+
+.bookCoverBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bookCoverBox img {
+  padding: 2vh;
+  height: 27vh;
+  object-fit: contain;
+}
+
+.titleAuthorBook {
+  width: 50%;
+  font-size: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.weeksList {
+  padding: 2vh;
+  font-weight: 300;
+  font-size: 2vh;
+}
+
+.titleAuthorBook h2 {
+  margin-bottom: 0;
+}
+
+.arrowCircleBoxBook {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.arrowCircleBoxBook img {
+  padding: 2vh;
+  height: 4vh;
+  object-fit: contain;
+}

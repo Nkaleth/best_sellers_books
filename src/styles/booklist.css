@@ -1,0 +1,19 @@
+.listDate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 10vh;
+  font-size: 3vh;
+  width: auto;
+  font-weight: 900;
+  background: #3a5b99;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}

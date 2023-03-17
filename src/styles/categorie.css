@@ -1,0 +1,39 @@
+.publishDate {
+  margin: 0;
+  font-size: 1.5vh;
+  padding-bottom: 2vh;
+}
+
+.CatNameBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catName {
+  font-weight: 900;
+  font-size: 2.5vh;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.categorieImageBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrowCircleBox {
+  position: absolute;
+  height: auto;
+  width: auto;
+  top: 10%;
+  right: 2%;
+}
+
+.arrowCircleBox img {
+  height: 3vh;
+  object-fit: contain;
+}

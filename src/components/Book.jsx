@@ -24,7 +24,7 @@ const Book = ({
     numWeeks = <span className="weeksList">{`${weeksOnList} WEEKS ON THE LIST`}</span>;
   }
   return (
-    <article data-testid="bookBox" className="bookBox">
+    <article data-testid="bookBox" className={`bookBox${rank % 2 === 0 ? 'even' : 'odd'}`}>
       <section className="bookTitle">
         <div className="rankData">
           <h2 className="rankNumber">{rank}</h2>
@@ -40,7 +40,7 @@ const Book = ({
           <span>{`by ${author}`}</span>
           {numWeeks}
         </div>
-        <div className="arrowRankBox">
+        <div className="arrowCircleBoxBook">
           <img src={arrowCircle} alt="arrowCircle" />
         </div>
       </section>

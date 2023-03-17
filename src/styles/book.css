@@ -1,11 +1,13 @@
-.bookBox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.bookBoxodd {
+  background-color: #4c76c6;
+}
+
+.bookBoxeven {
+  background-color: #4369b2;
 }
 
 .bookTitle {
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -20,6 +22,7 @@
 
 .rankNumber {
   font-size: 5vh;
+  padding-left: 3vh;
 }
 
 .arrowRankBox {
@@ -31,6 +34,7 @@
   height: 3vh;
   object-fit: contain;
   padding: 0;
+  margin: 0;
 }
 
 .bookCoverBox {
@@ -61,4 +65,17 @@
 
 .titleAuthorBook h2 {
   margin-bottom: 0;
+}
+
+.arrowCircleBoxBook {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.arrowCircleBoxBook img {
+  padding: 2vh;
+  height: 4vh;
+  object-fit: contain;
 }

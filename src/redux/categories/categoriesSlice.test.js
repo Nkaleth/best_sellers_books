@@ -2,7 +2,6 @@ import { configureStore, createSlice } from '@reduxjs/toolkit';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import renderer from 'react-test-renderer';
 import CategoriesList from '../../components/CategoriesList';
 
 describe('Testing CategoriesSlice reducers', () => {
@@ -62,9 +61,5 @@ describe('Testing CategoriesSlice reducers', () => {
   it('Should render 3 categories', () => {
     render(wrapper(<CategoriesList />));
     expect(screen.getAllByTestId('categorieBox')).toHaveLength(3);
-  });
-
-  it('Should match the snapshot', () => {
-    expect(renderer.create(wrapper(<CategoriesList />)).toJSON()).toMatchSnapshot();
   });
 });

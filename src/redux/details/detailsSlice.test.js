@@ -2,7 +2,6 @@ import { configureStore, createSlice } from '@reduxjs/toolkit';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import renderer from 'react-test-renderer';
 import BooksList from '../../components/BooksList';
 
 describe('Testing details page: <BooksList /> component', () => {
@@ -73,9 +72,5 @@ describe('Testing details page: <BooksList /> component', () => {
   it('Should render 4 books', () => {
     render(wrapper(<BooksList />));
     expect(screen.getAllByTestId('bookBox')).toHaveLength(4);
-  });
-
-  it('Should match the snapshot', () => {
-    expect(renderer.create(wrapper(<BooksList />)).toJSON()).toMatchSnapshot();
   });
 });

@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import BooksList from '../components/BooksList';
+import BooksList from './BooksList';
 import store from '../redux/store';
 
 describe('testing BooksList component', () => {

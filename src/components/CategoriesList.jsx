@@ -41,12 +41,11 @@ const CategoriesList = () => {
         <p className="titleBoxCategories">BOOKS BY CATEGORY</p>
         <section className="CategoriesBox">
           { categoriesFiltered.map((categorie) => (
-            <NavLink key={categorie.list_name_encoded} to={`/details/${categorie.list_name_encoded}`}>
+            <NavLink className="categorieLink" key={categorie.list_name_encoded} to={`/details/${categorie.list_name_encoded}`}>
               <Categorie
                 id={categorie.list_name_encoded}
                 categorieName={categorie.display_name}
                 date={categorie.newest_published_date}
-                index={categorie.newindex}
               />
             </NavLink>
           ))}
@@ -64,7 +63,7 @@ const CategoriesList = () => {
       <p>BOOKS BY CATEGORY</p>
       <section className="CategoriesBox">
         { categoriesList.map((categorie) => (
-          <NavLink key={categorie.list_name_encoded} to={`/details/${categorie.list_name_encoded}`}>
+          <NavLink className="categorieLink" key={categorie.list_name_encoded} to={`/details/${categorie.list_name_encoded}`}>
             <Categorie
               id={categorie.list_name_encoded}
               categorieName={categorie.display_name}

@@ -5,9 +5,9 @@ import category from '../icons/category-svgrepo-com.svg';
 import arrowCircle from '../icons/arrow-right-circle-svgrepo-com.svg';
 
 const Categorie = ({
-  categorieName, date, id, index,
+  categorieName, date, id,
 }) => (
-  <section data-testid="categorieBox" id={id} className={`categorieBox${index % 2 === 0 ? 'even' : 'odd'}`}>
+  <section data-testid="categorieBox" id={id} className="categorieBox">
     <div className="categorieImageBox">
       <img src={category} alt="Categorie Icon" />
       <div className="arrowCircleBox">
@@ -28,6 +28,5 @@ const Categorie = ({
 Categorie.propTypes = { categorieName: PropTypes.string.isRequired };
 Categorie.propTypes = { date: PropTypes.string.isRequired };
 Categorie.propTypes = { id: PropTypes.string.isRequired };
-Categorie.propTypes = { index: PropTypes.number.isRequired };
 
 export default Categorie;

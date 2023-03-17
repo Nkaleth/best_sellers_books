@@ -4,22 +4,6 @@
   padding-bottom: 2vh;
 }
 
-.categorieBoxeven {
-  background: #4369b2;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
-
-.categorieBoxodd {
-  background: #3f63a6;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
-
 .CatNameBox {
   display: flex;
   flex-direction: column;

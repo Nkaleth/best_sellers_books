@@ -35,11 +35,7 @@ const categoriesSlice = createSlice({
         state.isLoading = false;
         state.numlist = action.payload.num_results;
         const listCat = action.payload.results.filter((cat) => cat.newest_published_date.startsWith('2023'));
-        const listCatWithIndex = listCat.map((obj, index) => {
-          obj.newindex = index;
-          return obj;
-        });
-        state.categoriesList = listCatWithIndex;
+        state.categoriesList = listCat;
       });
   },
 });

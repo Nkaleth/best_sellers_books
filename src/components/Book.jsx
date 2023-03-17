@@ -4,6 +4,7 @@ import '../styles/book.css';
 import upArrow from '../icons/up-arrow-svgrepo-com.svg';
 import downArrow from '../icons/down-arrow-download-svgrepo-com.svg';
 import rightArrow from '../icons/right-arrow-svgrepo-com.svg';
+import arrowCircle from '../icons/arrow-right-circle-svgrepo-com.svg';
 
 const Book = ({
   rank, rankLastWeek, weeksOnList, title, author, bookImg,
@@ -38,6 +39,9 @@ const Book = ({
           <h2>{title}</h2>
           <span>{`by ${author}`}</span>
           {numWeeks}
+        </div>
+        <div className="arrowRankBox">
+          <img src={arrowCircle} alt="arrowCircle" />
         </div>
       </section>
     </article>

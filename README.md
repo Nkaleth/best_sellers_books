@@ -32,7 +32,7 @@
 
 #  Best Sellers Books<a name="about-project"></a>
 
-> Best Sellers Books is a website with this functionalities: display a list of books,  add a book and remove a selected book.
+> WebApp about the data of best selling books according New York Times Books API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,6 +75,7 @@
 
 [Live Demo](https://new-york-times-best-seller-books.onrender.com/)
 
+
 <!-- > Here you can visit my live demo : -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,7 +102,7 @@ Clone this repository to your desired folder:
 ```sh
   mkdir my-folder
   cd my-folder
-  git clone https://github.com/Nkaleth/bookstore.git
+  git clone https://github.com/Nkaleth/best_sellers_books.git
 ```
 
 -
@@ -163,7 +164,7 @@ To run the ESLint linter
 
 - GitHub: [@Nkaleth](https://github.com/Nkaleth)
 - Twitter: [@NoeSeguraL](https://twitter.com/NoeSeguraL)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nseguralu/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/niltonsegura/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,7 +172,8 @@ To run the ESLint linter
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Deploy**
+- **Transitions and/or animations**
+- **implement additional pages in the website (each with a route in the SPA): about me, references, etc**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +199,7 @@ If you like this project follow me and star it!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse<br>
+I would like to thank to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the author of the original design.<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->

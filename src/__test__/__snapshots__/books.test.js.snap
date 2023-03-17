@@ -1,289 +1,78 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing details page: <BooksList /> component Should match the snapshot 1`] = `
-Array [
-  <nav
-    className="navbarTop"
-  >
-    <div
-      className="contentnavbarTop"
-    >
-      <a
-        aria-current="page"
-        className="iconBox active"
-        href="/"
-        onClick={[Function]}
-      >
-        <img
-          alt="goBack"
-          src="backward-step-svgrepo-com.svg"
-        />
-        <p
-          className="yearNavbar"
-        >
-          2023
-           
-        </p>
-      </a>
-      <p
-        className="titleNavbar"
-      >
-        New York Times Best Sellers Books
-      </p>
+exports[`testing BooksList component expects to render it well each time 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
       <div
-        className="iconBox"
+        class="loading"
       >
-        <img
-          alt="mic"
-          src="mic-svgrepo-com.svg"
-        />
-      </div>
-      <div
-        className="iconBox"
-      >
-        <img
-          alt="config"
-          src="gear-svgrepo-com.svg"
-        />
+        <h1>
+          Loading...
+        </h1>
       </div>
     </div>
-  </nav>,
-  <section
-    className="navbarBottom"
-  >
+  </body>,
+  "container": <div>
     <div
-      className="catImgContainer"
+      class="loading"
     >
-      <img
-        alt="catImg"
-        src="library-svgrepo-com.svg"
-      />
-    </div>
-    <div
-      className="titleCountBox"
-    >
-      <h1
-        className="titleCategories"
-      >
-        No list loaded
+      <h1>
+        Loading...
       </h1>
-      <p
-        className="counterNavbar"
-      >
-        4
-         
-        Items
-      </p>
     </div>
-  </section>,
-  <p
-    className="listDate"
-  >
-    Ranking Date: no Date
-  </p>,
-  <section
-    className="booksDetailsBox"
-  >
-    <article
-      className="bookBox"
-      data-testid="bookBox"
-    >
-      <section
-        className="bookTitle"
-      >
-        <div
-          className="rankData"
-        >
-          <h2
-            className="rankNumber"
-          >
-            1
-          </h2>
-          <div
-            className="arrowRankBox"
-          >
-            <img
-              alt="UpArrow"
-              className="arrowRank"
-              src="up-arrow-svgrepo-com.svg"
-            />
-          </div>
-          <div
-            className="bookCoverBox"
-          >
-            <img
-              alt="THE MAID"
-              src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
-            />
-          </div>
-        </div>
-        <div
-          className="titleAuthorBook"
-        >
-          <h2>
-            THE MAID
-          </h2>
-          <span>
-            by Nita Prose
-          </span>
-          <span
-            className="weeksList"
-          >
-            9 WEEKS ON THE LIST
-          </span>
-        </div>
-      </section>
-    </article>
-    <article
-      className="bookBox"
-      data-testid="bookBox"
-    >
-      <section
-        className="bookTitle"
-      >
-        <div
-          className="rankData"
-        >
-          <h2
-            className="rankNumber"
-          >
-            2
-          </h2>
-          <div
-            className="arrowRankBox"
-          >
-            <img
-              alt="UpArrow"
-              className="arrowRank"
-              src="up-arrow-svgrepo-com.svg"
-            />
-          </div>
-          <div
-            className="bookCoverBox"
-          >
-            <img
-              alt="Book 2"
-              src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
-            />
-          </div>
-        </div>
-        <div
-          className="titleAuthorBook"
-        >
-          <h2>
-            Book 2
-          </h2>
-          <span>
-            by Author2
-          </span>
-          <span
-            className="weeksList"
-          >
-            9 WEEKS ON THE LIST
-          </span>
-        </div>
-      </section>
-    </article>
-    <article
-      className="bookBox"
-      data-testid="bookBox"
-    >
-      <section
-        className="bookTitle"
-      >
-        <div
-          className="rankData"
-        >
-          <h2
-            className="rankNumber"
-          >
-            3
-          </h2>
-          <div
-            className="arrowRankBox"
-          >
-            <img
-              alt="UpArrow"
-              className="arrowRank"
-              src="up-arrow-svgrepo-com.svg"
-            />
-          </div>
-          <div
-            className="bookCoverBox"
-          >
-            <img
-              alt="Book 3"
-              src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
-            />
-          </div>
-        </div>
-        <div
-          className="titleAuthorBook"
-        >
-          <h2>
-            Book 3
-          </h2>
-          <span>
-            by Author3
-          </span>
-          <span
-            className="weeksList"
-          >
-            9 WEEKS ON THE LIST
-          </span>
-        </div>
-      </section>
-    </article>
-    <article
-      className="bookBox"
-      data-testid="bookBox"
-    >
-      <section
-        className="bookTitle"
-      >
-        <div
-          className="rankData"
-        >
-          <h2
-            className="rankNumber"
-          >
-            4
-          </h2>
-          <div
-            className="arrowRankBox"
-          >
-            <img
-              alt="UpArrow"
-              className="arrowRank"
-              src="up-arrow-svgrepo-com.svg"
-            />
-          </div>
-          <div
-            className="bookCoverBox"
-          >
-            <img
-              alt="Book 4"
-              src="https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg"
-            />
-          </div>
-        </div>
-        <div
-          className="titleAuthorBook"
-        >
-          <h2>
-            Book 4
-          </h2>
-          <span>
-            by Author4
-          </span>
-          <span
-            className="weeksList"
-          >
-            9 WEEKS ON THE LIST
-          </span>
-        </div>
-      </section>
-    </article>
-  </section>,
-]
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

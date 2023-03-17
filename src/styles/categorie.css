@@ -35,7 +35,21 @@
 }
 
 .categorieImageBox {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.arrowCircleBox {
+  position: absolute;
+  height: auto;
+  width: auto;
+  top: 10%;
+  right: 2%;
+}
+
+.arrowCircleBox img {
+  height: 3vh;
+  object-fit: contain;
 }

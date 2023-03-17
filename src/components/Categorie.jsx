@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/categorie.css';
 import category from '../icons/category-svgrepo-com.svg';
+import arrowCircle from '../icons/arrow-right-circle-svgrepo-com.svg';
 
 const Categorie = ({
   categorieName, date, id, index,
@@ -9,6 +10,9 @@ const Categorie = ({
   <section data-testid="categorieBox" id={id} className={`categorieBox${index % 2 === 0 ? 'even' : 'odd'}`}>
     <div className="categorieImageBox">
       <img src={category} alt="Categorie Icon" />
+      <div className="arrowCircleBox">
+        <img src={arrowCircle} alt="arrow Circle" />
+      </div>
     </div>
     <div className="CatNameBox">
       <h2 className="catName">{categorieName}</h2>

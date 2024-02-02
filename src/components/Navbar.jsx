@@ -14,7 +14,7 @@ const Navbar = ({ categorie, numCateg }) => (
         <NavLink className="iconBox" to="/">
           <img src={goback} alt="goBack" />
           <p className="yearNavbar">
-            2023
+            2024
             {' '}
           </p>
         </NavLink>

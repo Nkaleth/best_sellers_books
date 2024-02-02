@@ -34,7 +34,7 @@ const categoriesSlice = createSlice({
       .addCase(getCategoriesList.fulfilled, (state, action) => {
         state.isLoading = false;
         state.numlist = action.payload.num_results;
-        const listCat = action.payload.results.filter((cat) => cat.newest_published_date.startsWith('2023'));
+        const listCat = action.payload.results.filter((cat) => cat.newest_published_date.startsWith('2024'));
         state.categoriesList = listCat;
       });
   },
